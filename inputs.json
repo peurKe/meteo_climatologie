@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Grezillé",
+    "departement": 49
+  },
+  {
+    "name": "Brignais",
+    "departement": 69,
+    "country": "France",
+    "language": "fr",
+    "parameter": "temperature",
+    "force": true
+  }
+]

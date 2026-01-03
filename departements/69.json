@@ -1,0 +1,732 @@
+[
+  {
+    "id": "69006001",
+    "nom": "AMPLEPUIS BOURG",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.331667,
+    "lat": 45.971667,
+    "alt": 435,
+    "postePublic": true
+  },
+  {
+    "id": "69008001",
+    "nom": "ANCY_SAPC",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": 4.508167,
+    "lat": 45.843333,
+    "alt": 626,
+    "postePublic": true
+  },
+  {
+    "id": "69018001",
+    "nom": "BEAUJEU PHARMACIE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.591667,
+    "lat": 46.153333,
+    "alt": 300,
+    "postePublic": true
+  },
+  {
+    "id": "69019002",
+    "nom": "BELLEVILLE ROUTE DE BEAUJEU",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.746667,
+    "lat": 46.11,
+    "alt": 195,
+    "postePublic": true
+  },
+  {
+    "id": "69023002",
+    "nom": "BLACE",
+    "posteOuvert": false,
+    "typePoste": 3,
+    "lon": 4.642,
+    "lat": 46.0345,
+    "alt": 340,
+    "postePublic": true
+  },
+  {
+    "id": "69026001",
+    "nom": "LE BREUIL",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.583,
+    "lat": 45.896,
+    "alt": 275,
+    "postePublic": true
+  },
+  {
+    "id": "69028001",
+    "nom": "BRINDAS",
+    "posteOuvert": true,
+    "typePoste": 1,
+    "lon": 4.693167,
+    "lat": 45.713333,
+    "alt": 317,
+    "postePublic": true
+  },
+  {
+    "id": "69029001",
+    "nom": "LYON-BRON",
+    "posteOuvert": true,
+    "typePoste": 0,
+    "lon": 4.949167,
+    "lat": 45.721333,
+    "alt": 202,
+    "postePublic": true
+  },
+  {
+    "id": "69030001",
+    "nom": "BRULLIOLES",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.496667,
+    "lat": 45.763333,
+    "alt": 500,
+    "postePublic": true
+  },
+  {
+    "id": "69032001",
+    "nom": "BULLY",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.584167,
+    "lat": 45.845,
+    "alt": 280,
+    "postePublic": true
+  },
+  {
+    "id": "69034002",
+    "nom": "CALUIRE-ET-CUIRE VASSIEUX",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.85,
+    "lat": 45.796667,
+    "alt": 260,
+    "postePublic": true
+  },
+  {
+    "id": "69034003",
+    "nom": "CALUIRE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.876667,
+    "lat": 45.811667,
+    "alt": 269,
+    "postePublic": true
+  },
+  {
+    "id": "69052001",
+    "nom": "CHAZAY-D'AZERGUES",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.713333,
+    "lat": 45.876667,
+    "alt": 210,
+    "postePublic": true
+  },
+  {
+    "id": "69053001",
+    "nom": "CHENAS CAVE COOPERATIVE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.72,
+    "lat": 46.211667,
+    "alt": 380,
+    "postePublic": true
+  },
+  {
+    "id": "69058001",
+    "nom": "CHIROUBLES PRES",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.665,
+    "lat": 46.18,
+    "alt": 330,
+    "postePublic": true
+  },
+  {
+    "id": "69058002",
+    "nom": "CHIROUBLES",
+    "posteOuvert": false,
+    "typePoste": 3,
+    "lon": 4.667167,
+    "lat": 46.182667,
+    "alt": 415,
+    "postePublic": true
+  },
+  {
+    "id": "69060001",
+    "nom": "CLAVEISOLLES ECOLE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.491667,
+    "lat": 46.101667,
+    "alt": 450,
+    "postePublic": true
+  },
+  {
+    "id": "69064001",
+    "nom": "CONDRIEU",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.765,
+    "lat": 45.465,
+    "alt": 149,
+    "postePublic": true
+  },
+  {
+    "id": "69064002",
+    "nom": "CONDRIEU",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.776167,
+    "lat": 45.470167,
+    "alt": 155,
+    "postePublic": true
+  },
+  {
+    "id": "69066002",
+    "nom": "COURS-LA-VILLE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.34,
+    "lat": 46.118333,
+    "alt": 610,
+    "postePublic": true
+  },
+  {
+    "id": "69066003",
+    "nom": "COURS LA VILLE_SAPC",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": 4.325833,
+    "lat": 46.098667,
+    "alt": 578,
+    "postePublic": true
+  },
+  {
+    "id": "69081001",
+    "nom": "ECULLY",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.788333,
+    "lat": 45.785,
+    "alt": 255,
+    "postePublic": true
+  },
+  {
+    "id": "69107001",
+    "nom": "LAMURE-SUR-AZER",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.485167,
+    "lat": 46.050333,
+    "alt": 456,
+    "postePublic": true
+  },
+  {
+    "id": "69108001",
+    "nom": "LANCIE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.717,
+    "lat": 46.1725,
+    "alt": 180,
+    "postePublic": true
+  },
+  {
+    "id": "69114001",
+    "nom": "LIERGUES_SAPC",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": 4.650333,
+    "lat": 45.9765,
+    "alt": 290,
+    "postePublic": true
+  },
+  {
+    "id": "69116001",
+    "nom": "LIMONEST",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.765167,
+    "lat": 45.834167,
+    "alt": 365,
+    "postePublic": true
+  },
+  {
+    "id": "69122001",
+    "nom": "LUCENAY",
+    "posteOuvert": false,
+    "typePoste": 3,
+    "lon": 4.694833,
+    "lat": 45.905667,
+    "alt": 255,
+    "postePublic": true
+  },
+  {
+    "id": "69123001",
+    "nom": "LYON-GERLAND",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.856667,
+    "lat": 45.763333,
+    "alt": 164,
+    "postePublic": true
+  },
+  {
+    "id": "69123002",
+    "nom": "LYON TETE D'OR",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": 4.855167,
+    "lat": 45.772833,
+    "alt": 170,
+    "postePublic": true
+  },
+  {
+    "id": "69123003",
+    "nom": "LYON ST-RAMBERT",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.810333,
+    "lat": 45.790167,
+    "alt": 200,
+    "postePublic": true
+  },
+  {
+    "id": "69123004",
+    "nom": "LYON-FOURVIERE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.856667,
+    "lat": 45.763333,
+    "alt": 290,
+    "postePublic": true
+  },
+  {
+    "id": "69123009",
+    "nom": "LYON-ST CLAIR",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.856667,
+    "lat": 45.763333,
+    "alt": 165,
+    "postePublic": true
+  },
+  {
+    "id": "69123010",
+    "nom": "LYON-ECOLE DES METIERS",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.835,
+    "lat": 45.766667,
+    "alt": 174,
+    "postePublic": true
+  },
+  {
+    "id": "69123011",
+    "nom": "LYON-MULATIERE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.835,
+    "lat": 45.766667,
+    "alt": 167,
+    "postePublic": true
+  },
+  {
+    "id": "69123012",
+    "nom": "LYON-PERRACHE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.835,
+    "lat": 45.766667,
+    "alt": 184,
+    "postePublic": true
+  },
+  {
+    "id": "69123015",
+    "nom": "LYON-TETE D'OR",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.835,
+    "lat": 45.766667,
+    "alt": 172,
+    "postePublic": true
+  },
+  {
+    "id": "69123020",
+    "nom": "LYON AMPERE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.835,
+    "lat": 45.766667,
+    "alt": 169,
+    "postePublic": true
+  },
+  {
+    "id": "69123023",
+    "nom": "LYON-FOURVIERE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.818167,
+    "lat": 45.759667,
+    "alt": 310,
+    "postePublic": true
+  },
+  {
+    "id": "69135001",
+    "nom": "MONSOLS",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": 4.523167,
+    "lat": 46.219167,
+    "alt": 525,
+    "postePublic": true
+  },
+  {
+    "id": "69137001",
+    "nom": "MONTMELAS-SAINT-SORLIN",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.61,
+    "lat": 46.016667,
+    "alt": 480,
+    "postePublic": true
+  },
+  {
+    "id": "69141001",
+    "nom": "MORNANT",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": 4.673833,
+    "lat": 45.6145,
+    "alt": 343,
+    "postePublic": true
+  },
+  {
+    "id": "69156001",
+    "nom": "POMMIERS",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.694167,
+    "lat": 45.957167,
+    "alt": 315,
+    "postePublic": true
+  },
+  {
+    "id": "69174001",
+    "nom": "LES SAUVAGE COL",
+    "posteOuvert": false,
+    "typePoste": 2,
+    "lon": 4.393333,
+    "lat": 45.941667,
+    "alt": 720,
+    "postePublic": true
+  },
+  {
+    "id": "69174002",
+    "nom": "LES SAUVAGES",
+    "posteOuvert": true,
+    "typePoste": 1,
+    "lon": 4.384167,
+    "lat": 45.935333,
+    "alt": 831,
+    "postePublic": true
+  },
+  {
+    "id": "69176001",
+    "nom": "SOUCIEU",
+    "posteOuvert": false,
+    "typePoste": 3,
+    "lon": 4.692333,
+    "lat": 45.665667,
+    "alt": 367,
+    "postePublic": true
+  },
+  {
+    "id": "69180002",
+    "nom": "STANDRE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.599,
+    "lat": 45.6305,
+    "alt": 860,
+    "postePublic": true
+  },
+  {
+    "id": "69191001",
+    "nom": "SAINT-CYR-AU-MONT-D'OR",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.818333,
+    "lat": 45.813333,
+    "alt": 320,
+    "postePublic": true
+  },
+  {
+    "id": "69192001",
+    "nom": "ST-CYR-CHATOUX",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.556833,
+    "lat": 46.027167,
+    "alt": 695,
+    "postePublic": true
+  },
+  {
+    "id": "69195001",
+    "nom": "ST-DIDIER - COG",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.61,
+    "lat": 45.596667,
+    "alt": 470,
+    "postePublic": true
+  },
+  {
+    "id": "69195002",
+    "nom": "ST-DIDIER-RIVER",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.5935,
+    "lat": 45.595167,
+    "alt": 600,
+    "postePublic": true
+  },
+  {
+    "id": "69196001",
+    "nom": "ST-DIDIER-BEAUJ",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": 4.566333,
+    "lat": 46.164167,
+    "alt": 345,
+    "postePublic": true
+  },
+  {
+    "id": "69203001",
+    "nom": "ST-GENIS-L'ARGENTIERE",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": 4.4845,
+    "lat": 45.7,
+    "alt": 512,
+    "postePublic": true
+  },
+  {
+    "id": "69204001",
+    "nom": "SAINT-GENIS-LAVAL",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.793333,
+    "lat": 45.695,
+    "alt": 260,
+    "postePublic": true
+  },
+  {
+    "id": "69204002",
+    "nom": "ST-GENIS-LAVAL",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": 4.782333,
+    "lat": 45.694667,
+    "alt": 290,
+    "postePublic": true
+  },
+  {
+    "id": "69204003",
+    "nom": "ST-GENIS - COIN",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.789833,
+    "lat": 45.666833,
+    "alt": 275,
+    "postePublic": true
+  },
+  {
+    "id": "69206001",
+    "nom": "ST-GEORGES-REN",
+    "posteOuvert": true,
+    "typePoste": 1,
+    "lon": 4.710833,
+    "lat": 46.058167,
+    "alt": 190,
+    "postePublic": true
+  },
+  {
+    "id": "69208001",
+    "nom": "ST-GERMAIN-L AR",
+    "posteOuvert": false,
+    "typePoste": 3,
+    "lon": 4.6045,
+    "lat": 45.869333,
+    "alt": 370,
+    "postePublic": true
+  },
+  {
+    "id": "69211001",
+    "nom": "ST-JEAN-D ARDIE",
+    "posteOuvert": false,
+    "typePoste": 3,
+    "lon": 4.702667,
+    "lat": 46.117667,
+    "alt": 240,
+    "postePublic": true
+  },
+  {
+    "id": "69229001",
+    "nom": "SAINT-NIZIER-D'AZERGUES ECOLE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.465,
+    "lat": 46.088333,
+    "alt": 550,
+    "postePublic": true
+  },
+  {
+    "id": "69238001",
+    "nom": "ST-SYMPHORIEN-C",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": 4.471333,
+    "lat": 45.638667,
+    "alt": 610,
+    "postePublic": true
+  },
+  {
+    "id": "69239001",
+    "nom": "ST-VERAND",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.501667,
+    "lat": 45.925,
+    "alt": 430,
+    "postePublic": true
+  },
+  {
+    "id": "69239002",
+    "nom": "SAINT-VERAND",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": 4.521167,
+    "lat": 45.916333,
+    "alt": 390,
+    "postePublic": true
+  },
+  {
+    "id": "69243001",
+    "nom": "TARARE AGGLOMERATION",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.435,
+    "lat": 45.895,
+    "alt": 415,
+    "postePublic": true
+  },
+  {
+    "id": "69253001",
+    "nom": "TUPIN-ET-SEMONS",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.776667,
+    "lat": 45.471667,
+    "alt": 150,
+    "postePublic": true
+  },
+  {
+    "id": "69256001",
+    "nom": "VAULX-EN-VELIN",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.925,
+    "lat": 45.786667,
+    "alt": 182,
+    "postePublic": true
+  },
+  {
+    "id": "69258001",
+    "nom": "VAUXRENARD",
+    "posteOuvert": true,
+    "typePoste": 1,
+    "lon": 4.6285,
+    "lat": 46.217,
+    "alt": 740,
+    "postePublic": true
+  },
+  {
+    "id": "69259001",
+    "nom": "VENISSIEUX LE CLUZEL",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.881667,
+    "lat": 45.705,
+    "alt": 195,
+    "postePublic": true
+  },
+  {
+    "id": "69264001",
+    "nom": "VILLEFRANCHE",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": 4.737667,
+    "lat": 45.987167,
+    "alt": 174,
+    "postePublic": true
+  },
+  {
+    "id": "69264005",
+    "nom": "VILLEFRANCHE-SUR-SAONE BOURG",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.723333,
+    "lat": 45.988333,
+    "alt": 212,
+    "postePublic": true
+  },
+  {
+    "id": "69266001",
+    "nom": "VILLEURBANNE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.89,
+    "lat": 45.758333,
+    "alt": 177,
+    "postePublic": true
+  },
+  {
+    "id": "69266002",
+    "nom": "VILLEURB CUSSET",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.906667,
+    "lat": 45.766667,
+    "alt": 180,
+    "postePublic": true
+  },
+  {
+    "id": "69267001",
+    "nom": "VILLIE-MORGON ROUTE DE TRUGES",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 4.68,
+    "lat": 46.161667,
+    "alt": 289,
+    "postePublic": true
+  },
+  {
+    "id": "69299001",
+    "nom": "LYON-ST EXUPERY",
+    "posteOuvert": true,
+    "typePoste": 0,
+    "lon": 5.077833,
+    "lat": 45.7265,
+    "alt": 235,
+    "postePublic": true
+  }
+]

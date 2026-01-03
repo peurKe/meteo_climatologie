@@ -1,0 +1,372 @@
+[
+  {
+    "id": "49007003",
+    "nom": "ANGERS ECOLE NORMALE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.555,
+    "lat": 47.47,
+    "alt": 45,
+    "postePublic": true
+  },
+  {
+    "id": "49007004",
+    "nom": "ANGERS JARDIN DES PLANTES",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.555,
+    "lat": 47.47,
+    "alt": 38,
+    "postePublic": true
+  },
+  {
+    "id": "49007005",
+    "nom": "ANGERS BAUMETTE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.555,
+    "lat": 47.47,
+    "alt": 37,
+    "postePublic": true
+  },
+  {
+    "id": "49007010",
+    "nom": "ANGERS BOURG",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.555,
+    "lat": 47.47,
+    "alt": 30,
+    "postePublic": true
+  },
+  {
+    "id": "49007011",
+    "nom": "ANGERS VILLE",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -0.5605,
+    "lat": 47.4535,
+    "alt": 35,
+    "postePublic": true
+  },
+  {
+    "id": "49008001",
+    "nom": "ANGRIE",
+    "posteOuvert": true,
+    "typePoste": 1,
+    "lon": -0.970333,
+    "lat": 47.561667,
+    "alt": 65,
+    "postePublic": true
+  },
+  {
+    "id": "49015002",
+    "nom": "AVRILLE",
+    "posteOuvert": false,
+    "typePoste": 0,
+    "lon": -0.583333,
+    "lat": 47.5,
+    "alt": 57,
+    "postePublic": true
+  },
+  {
+    "id": "49018003",
+    "nom": "BAUGE",
+    "posteOuvert": false,
+    "typePoste": 3,
+    "lon": -0.103333,
+    "lat": 47.543333,
+    "alt": 76,
+    "postePublic": true
+  },
+  {
+    "id": "49020001",
+    "nom": "BEAUCOUZE",
+    "posteOuvert": true,
+    "typePoste": 0,
+    "lon": -0.614333,
+    "lat": 47.479,
+    "alt": 50,
+    "postePublic": true
+  },
+  {
+    "id": "49022001",
+    "nom": "BEAULIEU-S-LAY",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -0.598333,
+    "lat": 47.308,
+    "alt": 78,
+    "postePublic": true
+  },
+  {
+    "id": "49027001",
+    "nom": "BEGROLLES",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -0.937667,
+    "lat": 47.152167,
+    "alt": 100,
+    "postePublic": true
+  },
+  {
+    "id": "49027800",
+    "nom": "BEGROLLES_DOUBLE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.937667,
+    "lat": 47.152167,
+    "alt": 100,
+    "postePublic": true
+  },
+  {
+    "id": "49029001",
+    "nom": "BLAISON-GOHIER",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.356833,
+    "lat": 47.396333,
+    "alt": 68,
+    "postePublic": true
+  },
+  {
+    "id": "49054002",
+    "nom": "CANDSA",
+    "posteOuvert": false,
+    "typePoste": 3,
+    "lon": -1.014,
+    "lat": 47.560333,
+    "alt": 57,
+    "postePublic": true
+  },
+  {
+    "id": "49099003",
+    "nom": "CHOLET",
+    "posteOuvert": true,
+    "typePoste": 1,
+    "lon": -0.8805,
+    "lat": 47.0795,
+    "alt": 134,
+    "postePublic": true
+  },
+  {
+    "id": "49115001",
+    "nom": "COUTURES",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.35,
+    "lat": 47.366667,
+    "alt": 75,
+    "postePublic": true
+  },
+  {
+    "id": "49138001",
+    "nom": "FONTAINE-GUERIN",
+    "posteOuvert": true,
+    "typePoste": 1,
+    "lon": -0.167833,
+    "lat": 47.493167,
+    "alt": 41,
+    "postePublic": true
+  },
+  {
+    "id": "49176001",
+    "nom": "LE LION D'ANG.",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -0.735167,
+    "lat": 47.6135,
+    "alt": 52,
+    "postePublic": true
+  },
+  {
+    "id": "49188001",
+    "nom": "MARCE",
+    "posteOuvert": true,
+    "typePoste": 0,
+    "lon": -0.317,
+    "lat": 47.561833,
+    "alt": 53,
+    "postePublic": true
+  },
+  {
+    "id": "49191001",
+    "nom": "MARTIGNE-BRIAND",
+    "posteOuvert": true,
+    "typePoste": 1,
+    "lon": -0.435833,
+    "lat": 47.2525,
+    "alt": 73,
+    "postePublic": true
+  },
+  {
+    "id": "49201001",
+    "nom": "LA MENITRE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.275,
+    "lat": 47.403833,
+    "alt": 22,
+    "postePublic": true
+  },
+  {
+    "id": "49215001",
+    "nom": "MONT.-BELLAY",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.151667,
+    "lat": 47.142167,
+    "alt": 49,
+    "postePublic": true
+  },
+  {
+    "id": "49215002",
+    "nom": "MONT-BELLAY-INRAE",
+    "posteOuvert": true,
+    "typePoste": 3,
+    "lon": -0.1415,
+    "lat": 47.13,
+    "alt": 58,
+    "postePublic": true
+  },
+  {
+    "id": "49216001",
+    "nom": "MONTREUIL SUR LOIR",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.386333,
+    "lat": 47.577,
+    "alt": 23,
+    "postePublic": true
+  },
+  {
+    "id": "49244001",
+    "nom": "LA POMMERAYE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.8435,
+    "lat": 47.359833,
+    "alt": 91,
+    "postePublic": true
+  },
+  {
+    "id": "49244002",
+    "nom": "LA POMMERAYE AGGLOMERATION",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.858333,
+    "lat": 47.351667,
+    "alt": 86,
+    "postePublic": true
+  },
+  {
+    "id": "49248003",
+    "nom": "POUANCE_SAPC",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -1.188333,
+    "lat": 47.74,
+    "alt": 96,
+    "postePublic": true
+  },
+  {
+    "id": "49276001",
+    "nom": "ST FLORENT VIEI",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -1.011833,
+    "lat": 47.355333,
+    "alt": 21,
+    "postePublic": true
+  },
+  {
+    "id": "49277001",
+    "nom": "ST GEMMES D'AND",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.883333,
+    "lat": 47.683333,
+    "alt": 45,
+    "postePublic": true
+  },
+  {
+    "id": "49281001",
+    "nom": "ST GEORGES GARD",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -0.7395,
+    "lat": 47.150667,
+    "alt": 203,
+    "postePublic": true
+  },
+  {
+    "id": "49307001",
+    "nom": "ST MATHURIN S L",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -0.319167,
+    "lat": 47.425667,
+    "alt": 20,
+    "postePublic": true
+  },
+  {
+    "id": "49328001",
+    "nom": "SAUMUR",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -0.074333,
+    "lat": 47.252167,
+    "alt": 69,
+    "postePublic": true
+  },
+  {
+    "id": "49331001",
+    "nom": "SEGRE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.866667,
+    "lat": 47.7,
+    "alt": 34,
+    "postePublic": true
+  },
+  {
+    "id": "49331002",
+    "nom": "SEGRE",
+    "posteOuvert": false,
+    "typePoste": 3,
+    "lon": -0.871,
+    "lat": 47.698333,
+    "alt": 49,
+    "postePublic": true
+  },
+  {
+    "id": "49331003",
+    "nom": "SEGRE_SAPC",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -0.873333,
+    "lat": 47.679167,
+    "alt": 25,
+    "postePublic": true
+  },
+  {
+    "id": "49368001",
+    "nom": "VERNANTES",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": 0.018833,
+    "lat": 47.406833,
+    "alt": 41,
+    "postePublic": true
+  },
+  {
+    "id": "49373001",
+    "nom": "VIHIERS",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -0.517167,
+    "lat": 47.148,
+    "alt": 124,
+    "postePublic": true
+  }
+]
