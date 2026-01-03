@@ -8,13 +8,18 @@ from typing import List, Dict, Any, Tuple, Optional
 from pathlib import Path
 from geopy.geocoders import Nominatim
 from geopy.extra.rate_limiter import RateLimiter
+import pandas as pd
+# from openpyxl import load_workbook
+import win32com.client as win32
 
 class Meteo:
     # Constructeur
     def __init__(self,
                  api_base_url: str = "https://public-api.meteofrance.fr/public/DPClim/v1",
                  api_key: str = None,
+                 current_dir: str = "C:\\Users\\hurelmariea\\OneDrive - DE SANGOSSE\\Bureau\\meteo_climatologie",
                  inputs_file: str = "inputs.json",
+                 excel_file: str = "Calculette_T_pucerons.xlsx",
                  date_deb: str = None,
                  date_fin: str = None,
                  parameter: str = "temperature",
@@ -25,7 +30,9 @@ class Meteo:
     # Propriétés
         self.API_BASE_URL = api_base_url
         self.API_KEY = api_key
+        self.API_CURRENT_DIR = current_dir
         self.API_INPUTS_FILE = inputs_file
+        self.API_EXCEL_FILE = f"{self.API_CURRENT_DIR}\\{excel_file}"
         self.API_DATE_DEB = date_deb
         self.API_DATE_FIN = date_fin
         self.API_PARAMETER = parameter
@@ -107,7 +114,7 @@ class Meteo:
         resp = requests.get(url, headers=headers, params=params, timeout=timeout, verify=verify_ssl)
         resp.raise_for_status()
 
-        city_file = Path("cities") / f"{city}.csv"
+        city_file = Path(f"{self.API_CURRENT_DIR}\\cities\\{city}.csv")
         city_file.parent.mkdir(parents=True, exist_ok=True)
 
         # Sauvegarde du contenu binaire
@@ -167,43 +174,43 @@ class Meteo:
         return geolocator, geocode
 
 
-    def _try_geocode_department_bbox(
-        self,
-        department: str,
-        country: str = "France",
-        language: str = "fr",
-    ) -> Optional[Tuple[float, float, float, float]]:
-        """
-        Géocode le département à partir de son code (ex: '19', '2A') et retourne sa bounding box (west, south, east, north).
-        On tente plusieurs formulations pour Nominatim.
-        """
-        _, geocode = self._make_geocoder()
+    # def _try_geocode_department_bbox(
+    #     self,
+    #     department: str,
+    #     country: str = "France",
+    #     language: str = "fr",
+    # ) -> Optional[Tuple[float, float, float, float]]:
+    #     """
+    #     Géocode le département à partir de son code (ex: '19', '2A') et retourne sa bounding box (west, south, east, north).
+    #     On tente plusieurs formulations pour Nominatim.
+    #     """
+    #     _, geocode = self._make_geocoder()
 
-        # Variantes de requêtes pour maximiser les chances de trouver le département par code
-        queries: List[str] = [
-            f"Département {department}, {country}",
-            f"Department {department}, {country}",
-            f"Dept {department}, {country}",
-            f"{department} {country} département",
-            f"{department}, {country} département",
-        ]
+    #     # Variantes de requêtes pour maximiser les chances de trouver le département par code
+    #     queries: List[str] = [
+    #         f"Département {department}, {country}",
+    #         f"Department {department}, {country}",
+    #         f"Dept {department}, {country}",
+    #         f"{department} {country} département",
+    #         f"{department}, {country} département",
+    #     ]
 
-        for q in queries:
-            try:
-                d = geocode(q, language=language, addressdetails=True, country_codes="fr", exactly_one=True)
-                if d and getattr(d, "raw", None) and d.raw.get("boundingbox"):
-                    south, north, west, east = map(float, d.raw["boundingbox"])  # [S, N, W, E]
-                    return (west, south, east, north)
-            except Exception:
-                # On poursuit avec la prochaine variante
-                continue
-        return None
+    #     for q in queries:
+    #         try:
+    #             d = geocode(q, language=language, addressdetails=True, country_codes="fr", exactly_one=True)
+    #             if d and getattr(d, "raw", None) and d.raw.get("boundingbox"):
+    #                 south, north, west, east = map(float, d.raw["boundingbox"])  # [S, N, W, E]
+    #                 return (west, south, east, north)
+    #         except Exception:
+    #             # On poursuit avec la prochaine variante
+    #             continue
+    #     return None
 
 
-    def geocode_city_with_department(
+    def geocode_city_with_county(
         self,
         city: str,
-        department: str,
+        county: str,
         country: str = "France",
         language: str = "fr",
     ) -> Optional[Tuple[float, float, str]]:
@@ -218,10 +225,7 @@ class Meteo:
 
         # 1) Essais directs : certaines variantes de requêtes "Ville, Département {code}, France"
         direct_queries = [
-            f"{city}, Département {department}, {country}",
-            f"{city}, Dept {department}, {country}",
-            f"{city}, Department {department}, {country}",
-            f"{city}, {department}, {country}",
+            {"city": city, "county": county, "country": country}
         ]
         for q in direct_queries:
             try:
@@ -240,35 +244,35 @@ class Meteo:
             except Exception:
                 continue
 
-        # 2) Fallback : borner la recherche au département (via sa bbox)
-        bbox = self._try_geocode_department_bbox(department, country=country, language=language)
-        if bbox:
-            west, south, east, north = bbox
-            viewbox = [(west, south), (east, north)]  # geopy accepte [(min_lon, min_lat), (max_lon, max_lat)]
-            try:
-                loc = geocode(
-                    city,
-                    language=language,
-                    addressdetails=True,
-                    country_codes="fr",
-                    viewbox=viewbox,
-                    bounded=True,       # limite la recherche au viewbox
-                    exactly_one=True,
-                    limit=1,
-                )
-                if loc:
-                    self.CITY_NAME = city
-                    self.CITY_LATITUDE = loc.latitude
-                    self.CITY_LONGITUDE = loc.longitude
-                    self.CITY_LABEL = loc.raw.get("display_name", "")
-                    return (
-                        self.CITY_NAME,
-                        self.CITY_LATITUDE,
-                        self.CITY_LONGITUDE,
-                        self.CITY_LABEL
-                    )
-            except Exception:
-                pass
+        # # 2) Fallback : borner la recherche au département (via sa bbox)
+        # bbox = self._try_geocode_department_bbox(department, country=country, language=language)
+        # if bbox:
+        #     west, south, east, north = bbox
+        #     viewbox = [(west, south), (east, north)]  # geopy accepte [(min_lon, min_lat), (max_lon, max_lat)]
+        #     try:
+        #         loc = geocode(
+        #             city,
+        #             language=language,
+        #             addressdetails=True,
+        #             country_codes="fr",
+        #             viewbox=viewbox,
+        #             bounded=True,       # limite la recherche au viewbox
+        #             exactly_one=True,
+        #             limit=1,
+        #         )
+        #         if loc:
+        #             self.CITY_NAME = city
+        #             self.CITY_LATITUDE = loc.latitude
+        #             self.CITY_LONGITUDE = loc.longitude
+        #             self.CITY_LABEL = loc.raw.get("display_name", "")
+        #             return (
+        #                 self.CITY_NAME,
+        #                 self.CITY_LATITUDE,
+        #                 self.CITY_LONGITUDE,
+        #                 self.CITY_LABEL
+        #             )
+        #     except Exception:
+        #         pass
 
         # Aucun résultat
         return None
@@ -356,3 +360,69 @@ class Meteo:
 
     def get_and_download_file(self, city: str):
         self.call_api_download_file(city)
+
+
+    def set_excel(self, excel_row, excel_col, city_name, city_departement, city_county):
+        # --- Paramètres à adapter ---
+        # csv_path = "C:\\Users\\hurelmariea\\OneDrive - DE SANGOSSE\\Bureau\\meteo_climatologie\\cities\\Grezillé.csv"
+        # xlsx_path = "C:\\Users\\hurelmariea\\OneDrive - DE SANGOSSE\\Bureau\\meteo_climatologie\\Calculette_T_pucerons.xlsx"
+        csv_path = f"{self.API_CURRENT_DIR}\\cities\\{city_name}.csv"
+        sheet_name = "Data"
+
+        # 1) Lire le CSV (séparateur ; et décimales françaises)
+        df = pd.read_csv(csv_path, sep=";", decimal=",", dtype=str)
+
+        # 2) Extraire la 15e colonne (TM)
+        tm_series = df["TM"] if "TM" in df.columns else df.iloc[:, 14]
+
+        # Normaliser les valeurs "françaises" -> float si possible, sinon texte
+        def parse_french_decimal(x):
+            if pd.isna(x) or str(x).strip() == "":
+                return ""
+            try:
+                return float(str(x).replace(",", "."))
+            except ValueError:
+                return str(x)
+
+        tm_values = [parse_french_decimal(v) for v in tm_series.tolist()]
+
+        # print(tm_values)
+        # sys.exit(0)
+
+        # 3) Écriture dans Excel via COM (même si le fichier est ouvert)
+        excel = win32.Dispatch("Excel.Application")
+
+        # Si le classeur est déjà ouvert dans Excel, on le récupère; sinon on l'ouvre
+        wb = None
+        for book in excel.Workbooks:
+            # Comparer les chemins canoniques
+            try:
+                if os.path.samefile(book.FullName, self.API_EXCEL_FILE):
+                    wb = book
+                    break
+            except Exception:
+                pass
+
+        if wb is None:
+            wb = excel.Workbooks.Open(self.API_EXCEL_FILE)
+
+        ws = wb.Worksheets(sheet_name)
+
+        ws.Range(f"{excel_col}1").Value = city_name
+        ws.Range(f"{excel_col}2").Value = city_departement
+        ws.Range(f"{excel_col}3").Value = city_county
+        for value in tm_values:
+            cell_addr = f"{excel_col}{excel_row}"
+            ws.Range(cell_addr).Value = value
+            excel_row += 1
+
+        # # Écrire B3, B4, B5
+        # targets = ["B3", "B4", "B5"]
+        # for cell_addr, value in zip(targets, tm_values[:3]):
+        #     ws.Range(cell_addr).Value = value
+
+        # Sauvegarder (si ouvert en lecture seule, Excel te le signalera)
+        wb.Save()
+        wb.Close(SaveChanges=True)  # si tu veux fermer après
+
+        print("Écriture terminée via Excel COM")

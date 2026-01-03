@@ -1,14 +1,41 @@
 [
   {
     "name": "Grezillé",
-    "departement": 49
-  },
-  {
-    "name": "Brignais",
-    "departement": 69,
+    "departement": 49,
+    "county": "Maine-et-Loire",
     "country": "France",
     "language": "fr",
     "parameter": "temperature",
     "force": false
+  },
+  {
+    "name": "Parthenay",
+    "departement": 79,
+    "county": "Deux-Sèvres"
+  },
+  {
+    "name": "Montaigu",
+    "departement": 85,
+    "county": "Vendée"
+  },
+  {
+    "name": "Château du loir",
+    "departement": 72,
+    "county": "Sarthe"
+  },
+  {
+    "name": "Angers",
+    "departement": 49,
+    "county": "Maine-et-Loire"
+  },
+  {
+    "name": "Tours",
+    "departement": 37,
+    "county": "Indre-et-Loire"
+  },
+  {
+    "name": "Janzé",
+    "departement": 35,
+    "county": "Ille-et-Vilaine"
   }
 ]

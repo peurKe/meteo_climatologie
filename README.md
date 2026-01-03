@@ -3,7 +3,7 @@ Récupération information climatologie
 
 # Prerequisites
 ```
-pip install geopy
+pip install requests geopy pandas openpyxl pywin32
 ```
 
 # Usage
@@ -12,21 +12,24 @@ Renseigner les informations des villes à traiter dans le fichier d'entrées '**
 [
   {
     "name": "Grezillé",
-    "departement": 49
-  },
-  {
-    "name": "Brignais",
-    "departement": 69,
+    "departement": 49,
+    "county": "Maine-et-Loire",
     "country": "France",
     "language": "fr",
     "parameter": "temperature",
     "force": false
+  },
+  {
+    "name": "Brignais",
+    "departement": 69,
+    "county": "Rhone"
   }
 ]
 ```
 Pour chaque élément ville :
 - '**name**' est **obligatoire**.
 - '**departement**' est **obligatoire**.
+- '**county**' est **obligatoire**.
 - '**country**' est facultatif (valeur par défaut "**France**") / Permet de préciser le pays de la ville.
 - '**language**' est facultatif (valeur par défaut "**fr**") / Permet de préciser le language du pays de la ville.
 - '**parameter**' est facultatif (valeur par défaut "**temperature**") / Permet de préciser le type d'information climatique à récupérer.

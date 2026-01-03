@@ -8,6 +8,7 @@ import argparse
 from datetime import date, datetime
 from pathlib import Path
 from meteo import Meteo
+import string
 
 def parse_date(value: str) -> date:
     try:
@@ -22,6 +23,7 @@ def main():
     parser.add_argument("--api-url", "-u", default=os.environ.get("METEOFRANCE_API_URL"), help="API URL Meteo France.")
     parser.add_argument("--api-key", "-a", default=os.environ.get("METEOFRANCE_API_KEY"), help="Clé API Meteo France.")
     parser.add_argument("--inputs-file", default="inputs.json", help="Fichier JSON contenant la liste de dictionnaire avec les informations des villes à traiter.")
+    parser.add_argument("--excel-file", default="Calculette_T_pucerons.xlsx", help="Fichier Excel pour l'exportation des données météo.")
     parser.add_argument("--date-deb", required=True, help="Début de période au format AAAA-MM-DD.")
     parser.add_argument("--date-fin", type=parse_date, help="Fin de période au format AAAA-MM-DD (par défaut : aujourd'hui)")
     parser.add_argument("--country", "-c", default="France", help="Pays (défaut: France).")
@@ -70,7 +72,9 @@ def main():
     meteo = Meteo(
         api_base_url=args.api_url,
         api_key=args.api_key,
+        current_dir=os.getcwd(),
         inputs_file=args.inputs_file,
+        excel_file=args.excel_file,
         date_deb=args.date_deb,
         date_fin=args.date_fin,
         parameter=args.parameter,
@@ -102,9 +106,11 @@ def main():
     # print(f"cities = {json.dumps(cities, ensure_ascii=False, indent=2)}")
     # os._exit(0)
 
+    excel_col_index = 1
     for city in cities:
         city_name = city.get('name')
         city_departement = city.get('departement')
+        city_county = city.get('county')
         city_country = city.get('country', 'France')
         city_language = city.get('language', 'fr')
         city_parameter = city.get('parameter', 'temperature')
@@ -113,6 +119,7 @@ def main():
         # # DEBUG
         # print(f"city_name = {city_name}")
         # print(f"city_departement = {city_departement}")
+        # print(f"city_county = {city_county}")
         # print(f"city_country = {city_country}")
         # print(f"city_language = {city_language}")
         # print(f"city_parameter = {city_parameter}")
@@ -121,23 +128,38 @@ def main():
 
         meteo.write_stations_by_departement(city_departement, city_parameter, city_force)
 
-        result = meteo.geocode_city_with_department(city_name, city_departement, city_country, city_language)
+        result = meteo.geocode_city_with_county(city_name, city_county, city_country, city_language)
         if result is None:
             print(f"Aucune coordonnée trouvée pour: {city_name}, département {city_departement}, country {city_country}")
             sys.exit(1)
         city, lat, lon, label = result
     
-        # # DEBUG
-        # print(f"Ville:      {city}, département {city_departement}, {city_country}")
-        # print(f"Latitude:   {lat:.6f}")
-        # print(f"Longitude:  {lon:.6f}")
-        # print(f"Résultat:   {label}")
-
+        # DEBUG
+        print()
+        print(f"Ville:      {city}, département {city_departement}, {city_country}")
+        print(f"Latitude:   {lat:.6f}")
+        print(f"Longitude:  {lon:.6f}")
+        print(f"Résultat:   {label}")
+        print()
+        
         nearest = meteo.find_nearest_station(lat, lon, city_departement)
         print(nearest)
 
         meteo.send_command_station()
         meteo.get_and_download_file(city_name)
+
+        # Générer les lettres simples A-Z
+        letters = list(string.ascii_uppercase)
+        # Générer les combinaisons AA-ZZ
+        col_letters = letters[:]  # commence avec A-Z
+        for first in letters:
+            for second in letters:
+                col_letters.append(first + second)
+
+        excel_row = 4
+        excel_col = col_letters[excel_col_index]
+        meteo.set_excel(excel_row, excel_col, city_name, city_departement, city_county)
+        excel_col_index += 1
 
 
 if __name__ == "__main__":

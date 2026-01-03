@@ -1,0 +1,502 @@
+[
+  {
+    "id": "37003001",
+    "nom": "AMBOISE",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": 0.976833,
+    "lat": 47.393833,
+    "alt": 119,
+    "postePublic": true
+  },
+  {
+    "id": "37003004",
+    "nom": "AMBOISE - LYCEE",
+    "posteOuvert": false,
+    "typePoste": 2,
+    "lon": 0.977,
+    "lat": 47.394167,
+    "alt": 116,
+    "postePublic": true
+  },
+  {
+    "id": "37009001",
+    "nom": "AUTRECHE",
+    "posteOuvert": false,
+    "typePoste": 2,
+    "lon": 0.986667,
+    "lat": 47.545,
+    "alt": 108,
+    "postePublic": true
+  },
+  {
+    "id": "37012001",
+    "nom": "AVON-LES-ROCHES",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 0.471667,
+    "lat": 47.179667,
+    "alt": 106,
+    "postePublic": true
+  },
+  {
+    "id": "37023002",
+    "nom": "BEAUMONT_SAPC",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": 1.211667,
+    "lat": 47.177167,
+    "alt": 126,
+    "postePublic": true
+  },
+  {
+    "id": "37055002",
+    "nom": "CHANNAY/LATHAN",
+    "posteOuvert": false,
+    "typePoste": 2,
+    "lon": 0.255333,
+    "lat": 47.4795,
+    "alt": 87,
+    "postePublic": true
+  },
+  {
+    "id": "37058001",
+    "nom": "LA CHAPELLE/L.",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 0.221667,
+    "lat": 47.248333,
+    "alt": 33,
+    "postePublic": true
+  },
+  {
+    "id": "37067001",
+    "nom": "CHEILLE - ST-B.",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 0.465,
+    "lat": 47.255,
+    "alt": 54,
+    "postePublic": true
+  },
+  {
+    "id": "37067003",
+    "nom": "CHEILLE",
+    "posteOuvert": false,
+    "typePoste": 2,
+    "lon": 0.403833,
+    "lat": 47.260833,
+    "alt": 60,
+    "postePublic": true
+  },
+  {
+    "id": "37072001",
+    "nom": "CHINON",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 0.225,
+    "lat": 47.146667,
+    "alt": 45,
+    "postePublic": true
+  },
+  {
+    "id": "37072002",
+    "nom": "CHINON - VITI",
+    "posteOuvert": false,
+    "typePoste": 2,
+    "lon": 0.233833,
+    "lat": 47.184333,
+    "alt": 76,
+    "postePublic": true
+  },
+  {
+    "id": "37076001",
+    "nom": "CINAIS",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 0.18,
+    "lat": 47.148333,
+    "alt": 55,
+    "postePublic": true
+  },
+  {
+    "id": "37087001",
+    "nom": "COURCOUE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 0.396333,
+    "lat": 47.0095,
+    "alt": 115,
+    "postePublic": true
+  },
+  {
+    "id": "37107001",
+    "nom": "FERRIERE-LARCON",
+    "posteOuvert": true,
+    "typePoste": 1,
+    "lon": 0.875,
+    "lat": 46.9875,
+    "alt": 116,
+    "postePublic": true
+  },
+  {
+    "id": "37109001",
+    "nom": "FONDETTES",
+    "posteOuvert": false,
+    "typePoste": 2,
+    "lon": 0.604167,
+    "lat": 47.425333,
+    "alt": 93,
+    "postePublic": true
+  },
+  {
+    "id": "37113001",
+    "nom": "LE GRAND-PRES.",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": 0.796333,
+    "lat": 46.921167,
+    "alt": 58,
+    "postePublic": true
+  },
+  {
+    "id": "37119001",
+    "nom": "L'ILE-BOUCHARD",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": 0.425167,
+    "lat": 47.114167,
+    "alt": 39,
+    "postePublic": true
+  },
+  {
+    "id": "37120001",
+    "nom": "INGRANDES -BLTO",
+    "posteOuvert": false,
+    "typePoste": 2,
+    "lon": 0.268333,
+    "lat": 47.288333,
+    "alt": 56,
+    "postePublic": true
+  },
+  {
+    "id": "37122001",
+    "nom": "JOUE-LES-TOURS OB",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": 0.661,
+    "lat": 47.325333,
+    "alt": 93,
+    "postePublic": true
+  },
+  {
+    "id": "37122003",
+    "nom": "JOUE-LES-TOURS",
+    "posteOuvert": false,
+    "typePoste": 2,
+    "lon": 0.665333,
+    "lat": 47.337167,
+    "alt": 93,
+    "postePublic": true
+  },
+  {
+    "id": "37128002",
+    "nom": "LIGNIERES-DE-T.",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": 0.402833,
+    "lat": 47.293,
+    "alt": 32,
+    "postePublic": true
+  },
+  {
+    "id": "37129001",
+    "nom": "LIGRE - PICHET",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 0.251667,
+    "lat": 47.118333,
+    "alt": 75,
+    "postePublic": true
+  },
+  {
+    "id": "37129002",
+    "nom": "LIGRE",
+    "posteOuvert": false,
+    "typePoste": 2,
+    "lon": 0.273,
+    "lat": 47.112333,
+    "alt": 67,
+    "postePublic": true
+  },
+  {
+    "id": "37131002",
+    "nom": "LIMERAY",
+    "posteOuvert": false,
+    "typePoste": 2,
+    "lon": 1.011833,
+    "lat": 47.461167,
+    "alt": 113,
+    "postePublic": true
+  },
+  {
+    "id": "37132001",
+    "nom": "LOCHES",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 0.966667,
+    "lat": 47.093333,
+    "alt": 125,
+    "postePublic": true
+  },
+  {
+    "id": "37132003",
+    "nom": "LOCHES - EN",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 0.995,
+    "lat": 47.128333,
+    "alt": 73,
+    "postePublic": true
+  },
+  {
+    "id": "37136002",
+    "nom": "LE LOUROUX",
+    "posteOuvert": false,
+    "typePoste": 2,
+    "lon": 0.696833,
+    "lat": 47.156333,
+    "alt": 123,
+    "postePublic": true
+  },
+  {
+    "id": "37170001",
+    "nom": "NEUVY-LE-ROI",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": 0.596,
+    "lat": 47.608,
+    "alt": 103,
+    "postePublic": true
+  },
+  {
+    "id": "37179001",
+    "nom": "TOURS",
+    "posteOuvert": true,
+    "typePoste": 0,
+    "lon": 0.727333,
+    "lat": 47.4445,
+    "alt": 108,
+    "postePublic": true
+  },
+  {
+    "id": "37179002",
+    "nom": "PARCAY AERODROME RN10",
+    "posteOuvert": false,
+    "typePoste": 0,
+    "lon": 0.715333,
+    "lat": 47.438667,
+    "alt": 104,
+    "postePublic": true
+  },
+  {
+    "id": "37183001",
+    "nom": "PERRUSSON",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 1.023833,
+    "lat": 47.110333,
+    "alt": 110,
+    "postePublic": true
+  },
+  {
+    "id": "37192001",
+    "nom": "REIGNAC",
+    "posteOuvert": true,
+    "typePoste": 1,
+    "lon": 0.899,
+    "lat": 47.219333,
+    "alt": 90,
+    "postePublic": true
+  },
+  {
+    "id": "37213001",
+    "nom": "ST-CHRIST.-SICA",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 0.473333,
+    "lat": 47.611667,
+    "alt": 64,
+    "postePublic": true
+  },
+  {
+    "id": "37213003",
+    "nom": "ST-CHRISTOPHE-SUR-NAIS",
+    "posteOuvert": true,
+    "typePoste": 1,
+    "lon": 0.464333,
+    "lat": 47.6155,
+    "alt": 107,
+    "postePublic": true
+  },
+  {
+    "id": "37216002",
+    "nom": "ST-EPAIN",
+    "posteOuvert": false,
+    "typePoste": 2,
+    "lon": 0.604833,
+    "lat": 47.157167,
+    "alt": 112,
+    "postePublic": true
+  },
+  {
+    "id": "37216003",
+    "nom": "SAINT EPAIN",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": 0.604833,
+    "lat": 47.157167,
+    "alt": 112,
+    "postePublic": true
+  },
+  {
+    "id": "37224001",
+    "nom": "ST-LAURENT-EN-G",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 0.7765,
+    "lat": 47.571333,
+    "alt": 155,
+    "postePublic": true
+  },
+  {
+    "id": "37228001",
+    "nom": "ST-NICOLAS-DE-BOURGUEIL",
+    "posteOuvert": false,
+    "typePoste": 2,
+    "lon": 0.107833,
+    "lat": 47.29,
+    "alt": 44,
+    "postePublic": true
+  },
+  {
+    "id": "37240001",
+    "nom": "SAUNAY",
+    "posteOuvert": true,
+    "typePoste": 1,
+    "lon": 0.931333,
+    "lat": 47.590333,
+    "alt": 109,
+    "postePublic": true
+  },
+  {
+    "id": "37241001",
+    "nom": "SAVIGNE/LATHAN",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": 0.319667,
+    "lat": 47.4415,
+    "alt": 88,
+    "postePublic": true
+  },
+  {
+    "id": "37242001",
+    "nom": "SAVIGNY -CHOUZE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 0.146667,
+    "lat": 47.228333,
+    "alt": 33,
+    "postePublic": true
+  },
+  {
+    "id": "37242002",
+    "nom": "SAVIGNY - VERON",
+    "posteOuvert": true,
+    "typePoste": 1,
+    "lon": 0.149333,
+    "lat": 47.227,
+    "alt": 33,
+    "postePublic": true
+  },
+  {
+    "id": "37249001",
+    "nom": "SONZAY",
+    "posteOuvert": false,
+    "typePoste": 2,
+    "lon": 0.470667,
+    "lat": 47.5185,
+    "alt": 117,
+    "postePublic": true
+  },
+  {
+    "id": "37253001",
+    "nom": "SUBLAINES",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": 0.993167,
+    "lat": 47.265,
+    "alt": 111,
+    "postePublic": true
+  },
+  {
+    "id": "37261001",
+    "nom": "TOURS -SAPAILLE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 0.693333,
+    "lat": 47.426667,
+    "alt": 100,
+    "postePublic": true
+  },
+  {
+    "id": "37261002",
+    "nom": "TOURS - CARCAS.",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 0.709167,
+    "lat": 47.412333,
+    "alt": 95,
+    "postePublic": true
+  },
+  {
+    "id": "37261003",
+    "nom": "TOURS -PILORGET",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 0.7,
+    "lat": 47.416667,
+    "alt": 97,
+    "postePublic": true
+  },
+  {
+    "id": "37261005",
+    "nom": "TOURS - CMD",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 0.683333,
+    "lat": 47.391667,
+    "alt": 55,
+    "postePublic": true
+  },
+  {
+    "id": "37261009",
+    "nom": "TOURS -MTSOUDUN",
+    "posteOuvert": false,
+    "typePoste": 0,
+    "lon": 0.7,
+    "lat": 47.416667,
+    "alt": 96,
+    "postePublic": true
+  },
+  {
+    "id": "37281001",
+    "nom": "VOUVRAY",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 0.798333,
+    "lat": 47.41,
+    "alt": 80,
+    "postePublic": true
+  }
+]

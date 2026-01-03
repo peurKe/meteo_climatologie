@@ -1,0 +1,432 @@
+[
+  {
+    "id": "35005001",
+    "nom": "ARBRISSEL",
+    "posteOuvert": true,
+    "typePoste": 1,
+    "lon": -1.297333,
+    "lat": 47.927333,
+    "alt": 75,
+    "postePublic": true
+  },
+  {
+    "id": "35026001",
+    "nom": "BLERUAIS",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -2.124167,
+    "lat": 48.1115,
+    "alt": 84,
+    "postePublic": true
+  },
+  {
+    "id": "35029001",
+    "nom": "BONNEMAIN",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -1.736667,
+    "lat": 48.473333,
+    "alt": 90,
+    "postePublic": true
+  },
+  {
+    "id": "35029002",
+    "nom": "BONNEMAIN",
+    "posteOuvert": false,
+    "typePoste": 2,
+    "lon": -1.736667,
+    "lat": 48.473333,
+    "alt": 90,
+    "postePublic": true
+  },
+  {
+    "id": "35044001",
+    "nom": "BROUALAN",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -1.640833,
+    "lat": 48.485667,
+    "alt": 99,
+    "postePublic": true
+  },
+  {
+    "id": "35049001",
+    "nom": "CANCALE",
+    "posteOuvert": false,
+    "typePoste": 0,
+    "lon": -1.843333,
+    "lat": 48.711667,
+    "alt": 40,
+    "postePublic": true
+  },
+  {
+    "id": "35057003",
+    "nom": "LA-CHAPELLE-BOUEXIC",
+    "posteOuvert": true,
+    "typePoste": 1,
+    "lon": -1.940833,
+    "lat": 47.9215,
+    "alt": 42,
+    "postePublic": true
+  },
+  {
+    "id": "35095002",
+    "nom": "DOL-DE-BRETAGNE",
+    "posteOuvert": false,
+    "typePoste": 2,
+    "lon": -1.731667,
+    "lat": 48.548333,
+    "alt": 19,
+    "postePublic": true
+  },
+  {
+    "id": "35109001",
+    "nom": "ETRELLES",
+    "posteOuvert": false,
+    "typePoste": 2,
+    "lon": -1.226667,
+    "lat": 48.073333,
+    "alt": 96,
+    "postePublic": true
+  },
+  {
+    "id": "35110001",
+    "nom": "FEINS",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -1.65,
+    "lat": 48.333333,
+    "alt": 73,
+    "postePublic": true
+  },
+  {
+    "id": "35110002",
+    "nom": "FEINS",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -1.596167,
+    "lat": 48.319,
+    "alt": 76,
+    "postePublic": true
+  },
+  {
+    "id": "35110003",
+    "nom": "FEINS  SA",
+    "posteOuvert": true,
+    "typePoste": 1,
+    "lon": -1.596833,
+    "lat": 48.326833,
+    "alt": 87,
+    "postePublic": true
+  },
+  {
+    "id": "35115001",
+    "nom": "FOUGERES",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -1.212667,
+    "lat": 48.337167,
+    "alt": 74,
+    "postePublic": true
+  },
+  {
+    "id": "35115002",
+    "nom": "FOUGERES",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -1.191667,
+    "lat": 48.345,
+    "alt": 86,
+    "postePublic": true
+  },
+  {
+    "id": "35125001",
+    "nom": "LA-GUERCHE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -1.233333,
+    "lat": 47.931667,
+    "alt": 81,
+    "postePublic": true
+  },
+  {
+    "id": "35159001",
+    "nom": "LOURMAIS",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -1.738333,
+    "lat": 48.428333,
+    "alt": 93,
+    "postePublic": true
+  },
+  {
+    "id": "35162003",
+    "nom": "LOUVIGNE-DU-DESERT",
+    "posteOuvert": true,
+    "typePoste": 1,
+    "lon": -1.129833,
+    "lat": 48.479333,
+    "alt": 153,
+    "postePublic": true
+  },
+  {
+    "id": "35167003",
+    "nom": "MARTIGNE-F.",
+    "posteOuvert": false,
+    "typePoste": 2,
+    "lon": -1.31,
+    "lat": 47.833333,
+    "alt": 72,
+    "postePublic": true
+  },
+  {
+    "id": "35169001",
+    "nom": "MAXENT",
+    "posteOuvert": false,
+    "typePoste": 1,
+    "lon": -1.967833,
+    "lat": 47.980833,
+    "alt": 116,
+    "postePublic": true
+  },
+  {
+    "id": "35178001",
+    "nom": "MEZIERES-SUR-C.",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -1.439,
+    "lat": 48.308833,
+    "alt": 71,
+    "postePublic": true
+  },
+  {
+    "id": "35187001",
+    "nom": "MONTERFIL",
+    "posteOuvert": false,
+    "typePoste": 2,
+    "lon": -2.0,
+    "lat": 48.061667,
+    "alt": 88,
+    "postePublic": true
+  },
+  {
+    "id": "35196002",
+    "nom": "MORDELLES",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -1.836667,
+    "lat": 48.073333,
+    "alt": 26,
+    "postePublic": true
+  },
+  {
+    "id": "35202001",
+    "nom": "LA-NOE-BLANCHE",
+    "posteOuvert": true,
+    "typePoste": 1,
+    "lon": -1.765,
+    "lat": 47.780167,
+    "alt": 89,
+    "postePublic": true
+  },
+  {
+    "id": "35211001",
+    "nom": "PAIMPONT",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -2.2285,
+    "lat": 48.0045,
+    "alt": 157,
+    "postePublic": true
+  },
+  {
+    "id": "35224001",
+    "nom": "PLERGUER",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -1.843667,
+    "lat": 48.524833,
+    "alt": 30,
+    "postePublic": true
+  },
+  {
+    "id": "35225001",
+    "nom": "PLESDER",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -1.924833,
+    "lat": 48.406833,
+    "alt": 56,
+    "postePublic": true
+  },
+  {
+    "id": "35228001",
+    "nom": "DINARD",
+    "posteOuvert": true,
+    "typePoste": 0,
+    "lon": -2.076333,
+    "lat": 48.584833,
+    "alt": 65,
+    "postePublic": true
+  },
+  {
+    "id": "35236002",
+    "nom": "REDON",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -2.058333,
+    "lat": 47.658333,
+    "alt": 10,
+    "postePublic": true
+  },
+  {
+    "id": "35238001",
+    "nom": "RENNES-ENSAR",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -1.708333,
+    "lat": 48.115,
+    "alt": 35,
+    "postePublic": true
+  },
+  {
+    "id": "35238003",
+    "nom": "RENNES GALLET",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -1.6435,
+    "lat": 48.126167,
+    "alt": 66,
+    "postePublic": true
+  },
+  {
+    "id": "35238006",
+    "nom": "RENNES ECOLE AGRICOLE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -1.68,
+    "lat": 48.106667,
+    "alt": 40,
+    "postePublic": true
+  },
+  {
+    "id": "35240001",
+    "nom": "LE RHEU-INRAE",
+    "posteOuvert": true,
+    "typePoste": 3,
+    "lon": -1.781167,
+    "lat": 48.1125,
+    "alt": 38,
+    "postePublic": true
+  },
+  {
+    "id": "35270002",
+    "nom": "ST-GEORGES",
+    "posteOuvert": false,
+    "typePoste": 3,
+    "lon": -1.539167,
+    "lat": 48.572667,
+    "alt": 6,
+    "postePublic": true
+  },
+  {
+    "id": "35281001",
+    "nom": "RENNES-ST JACQUES",
+    "posteOuvert": true,
+    "typePoste": 0,
+    "lon": -1.734,
+    "lat": 48.068833,
+    "alt": 36,
+    "postePublic": true
+  },
+  {
+    "id": "35288003",
+    "nom": "SAINT-MALO BUREAU DU PORT",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -2.011667,
+    "lat": 48.633333,
+    "alt": 9,
+    "postePublic": true
+  },
+  {
+    "id": "35288004",
+    "nom": "SAINT-MALO PARAME - BOURG",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -1.986667,
+    "lat": 48.66,
+    "alt": 29,
+    "postePublic": true
+  },
+  {
+    "id": "35288005",
+    "nom": "ST-SERVAN-AGGL",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -2.01,
+    "lat": 48.633333,
+    "alt": 25,
+    "postePublic": true
+  },
+  {
+    "id": "35294001",
+    "nom": "SAINTE MARIE",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -2.0045,
+    "lat": 47.691333,
+    "alt": 47,
+    "postePublic": true
+  },
+  {
+    "id": "35299002",
+    "nom": "ST-MELOIR",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -1.927333,
+    "lat": 48.64,
+    "alt": 40,
+    "postePublic": true
+  },
+  {
+    "id": "35335001",
+    "nom": "THOURIE",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -1.4505,
+    "lat": 47.845167,
+    "alt": 67,
+    "postePublic": true
+  },
+  {
+    "id": "35347001",
+    "nom": "VAL-D-IZE",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -1.302167,
+    "lat": 48.167667,
+    "alt": 106,
+    "postePublic": true
+  },
+  {
+    "id": "35360001",
+    "nom": "VITRE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -1.196667,
+    "lat": 48.126667,
+    "alt": 100,
+    "postePublic": true
+  },
+  {
+    "id": "35360004",
+    "nom": "VITRE_SAE",
+    "posteOuvert": false,
+    "typePoste": 3,
+    "lon": -1.212167,
+    "lat": 48.118833,
+    "alt": 105,
+    "postePublic": true
+  }
+]
