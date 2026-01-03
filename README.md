@@ -28,7 +28,7 @@ Pour chaque élément ville :
 - '**name**' est **obligatoire**.
 - '**departement**' est **obligatoire**.
 - '**country**' est facultatif (valeur par défaut "**France**") / Permet de préciser le pays de la ville.
-- '**language**' est facultatif (valeur par défaut "**fr**") / Permet de préciser le pays de la ville.
+- '**language**' est facultatif (valeur par défaut "**fr**") / Permet de préciser le language du pays de la ville.
 - '**parameter**' est facultatif (valeur par défaut "**temperature**") / Permet de préciser le type d'information climatique à récupérer.
 - '**force**' est facultatif (valeur par défaut "**false**") / Permet de forcer la mise à jour de toutes les informations, mêmes celles déjà récupérées.
 
