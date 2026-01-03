@@ -7,7 +7,7 @@ pip install geopy
 ```
 
 # Usage
-Renseigner les informations des villes à traiter dans le fichier d'entrées 'inputs.json' sous la forme :
+Renseigner les informations des villes à traiter dans le fichier d'entrées '**inputs.json**' sous la forme :
 ```
 [
   {
@@ -32,7 +32,7 @@ Pour chaque élément ville :
 - '**parameter**' est facultatif (valeur par défaut "**temperature**") / Permet de préciser le type d'information climatique à récupérer.
 - '**force**' est facultatif (valeur par défaut "**false**") / Permet de forcer la mise à jour de toutes les informations, mêmes celles déjà récupérées.
 
-Exécuter la commande suivante pour récupérer les valeurs climatiques entre --date-deb et --date-fin :
+Exécuter la commande suivante pour récupérer les valeurs climatiques spécifiées entre **--date-deb** et **--date-fin** :
 ```
 # Récupérer tout depuis la date de début jusqu'à la date du jour
 python -m meteo_climatologie --date-deb 2026-01-01
