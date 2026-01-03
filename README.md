@@ -32,7 +32,7 @@ Pour chaque élément ville :
 - '**parameter**' est facultatif (valeur par défaut "**temperature**") / Permet de préciser le type d'information climatique à récupérer.
 - '**force**' est facultatif (valeur par défaut "**false**") / Permet de forcer la mise à jour de toutes les informations, mêmes celles déjà récupérées.
 
-Exécuter la commande suivante pour récupérer les valeurs climatiques spécifiées entre **--date-deb** et **--date-fin** :
+Exécuter l'une des 2 commandes suivantes pour récupérer les valeurs climatiques de toutes les villes spécifiées dans le fichier d'entrées '**inputs.json**' :
 ```
 # Récupérer tout depuis la date de début jusqu'à la date du jour
 python -m meteo_climatologie --date-deb 2026-01-01
