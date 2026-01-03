@@ -9,6 +9,6 @@
     "country": "France",
     "language": "fr",
     "parameter": "temperature",
-    "force": true
+    "force": false
   }
 ]
