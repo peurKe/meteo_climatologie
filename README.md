@@ -34,5 +34,9 @@ Pour chaque élément ville :
 
 Exécuter la commande suivante pour récupérer les valeurs climatiques entre --date-deb et --date-fin :
 ```
-python -m meteo_climatologie --date-deb 2026-01-01 --date-fin 2026-01-02
+# Récupérer tout depuis la date de début jusqu'à la date du jour
+python -m meteo_climatologie --date-deb 2026-01-01
+
+# Récupérer tout depuis la date de début jusqu'à la date de fin spécifiées
+python -m meteo_climatologie --date-deb 2026-01-01 --date-fin 2026-12-31
 ```

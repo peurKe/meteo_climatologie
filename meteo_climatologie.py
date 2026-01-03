@@ -5,9 +5,17 @@ import os
 import sys
 import json
 import argparse
-from datetime import datetime
+from datetime import date, datetime
 from pathlib import Path
 from meteo import Meteo
+
+def parse_date(value: str) -> date:
+    try:
+        return datetime.strptime(value, "%Y-%m-%d").date()
+    except ValueError:
+        raise argparse.ArgumentTypeError(
+            "Format de date invalide, attendu AAAA-MM-DD"
+        )
 
 def main():
     parser = argparse.ArgumentParser(description="Appel API Météo-France DPClim (SSL désactivé).")
@@ -15,7 +23,7 @@ def main():
     parser.add_argument("--api-key", "-a", default=os.environ.get("METEOFRANCE_API_KEY"), help="Clé API Meteo France.")
     parser.add_argument("--inputs-file", default="inputs.json", help="Fichier JSON contenant la liste de dictionnaire avec les informations des villes à traiter.")
     parser.add_argument("--date-deb", required=True, help="Début de période au format AAAA-MM-DD.")
-    parser.add_argument("--date-fin", required=True, help="Fin de période au format AAAA-MM-DD.")
+    parser.add_argument("--date-fin", type=parse_date, help="Fin de période au format AAAA-MM-DD (par défaut : aujourd'hui)")
     parser.add_argument("--country", "-c", default="France", help="Pays (défaut: France).")
     parser.add_argument("--language", "-l", default="fr", help="Langue des résultats (défaut: fr).")
     parser.add_argument("--parameter", "-p", default="temperature", help="Paramètre de climatologie.")
@@ -37,6 +45,15 @@ def main():
         print("Erreur: fournissez METEOFRANCE_API_KEY ou --api-key ou -a", file=sys.stderr)
         print("Clé API Météo France introuvable dans les variables d'environnement utilisateur.")
         sys.exit(3)
+
+    today = date.today()
+    # Valeur par défaut
+    if args.date_fin is None:
+        args.date_fin = str(today)
+    # Si date-fin > aujourd'hui → on force aujourd'hui
+    elif args.date_fin > today:
+        args.date_fin = str(today)
+
     # Validation simple des dates (et conversion se fait dans call_api)
     for label, d in (("--date-deb", args.date_deb), ("--date-fin", args.date_fin)):
         try:
