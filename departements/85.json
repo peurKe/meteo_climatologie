@@ -1,0 +1,292 @@
+[
+  {
+    "id": "85004001",
+    "nom": "ANGLES",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -1.402333,
+    "lat": 46.4105,
+    "alt": 10,
+    "postePublic": true
+  },
+  {
+    "id": "85005001",
+    "nom": "ANTIGNY",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -0.775333,
+    "lat": 46.618833,
+    "alt": 75,
+    "postePublic": true
+  },
+  {
+    "id": "85051001",
+    "nom": "CHANTONNAY",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -1.048333,
+    "lat": 46.693333,
+    "alt": 93,
+    "postePublic": true
+  },
+  {
+    "id": "85060002",
+    "nom": "CHATEAU-D'OLONNE",
+    "posteOuvert": true,
+    "typePoste": 1,
+    "lon": -1.725833,
+    "lat": 46.477167,
+    "alt": 27,
+    "postePublic": true
+  },
+  {
+    "id": "85092004",
+    "nom": "FONTENAY",
+    "posteOuvert": true,
+    "typePoste": 1,
+    "lon": -0.779833,
+    "lat": 46.448167,
+    "alt": 20,
+    "postePublic": true
+  },
+  {
+    "id": "85097001",
+    "nom": "LA-GAUBRETIERE_SAPC",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -1.023833,
+    "lat": 46.925167,
+    "alt": 190,
+    "postePublic": true
+  },
+  {
+    "id": "85104001",
+    "nom": "GRUES",
+    "posteOuvert": true,
+    "typePoste": 1,
+    "lon": -1.334833,
+    "lat": 46.350167,
+    "alt": 2,
+    "postePublic": true
+  },
+  {
+    "id": "85109001",
+    "nom": "LES HERBIERS",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -1.018167,
+    "lat": 46.855833,
+    "alt": 103,
+    "postePublic": true
+  },
+  {
+    "id": "85113001",
+    "nom": "L ILE D YEU",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -2.330167,
+    "lat": 46.693667,
+    "alt": 32,
+    "postePublic": true
+  },
+  {
+    "id": "85113002",
+    "nom": "L'ILE-D'YEU PHARE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -2.331667,
+    "lat": 46.705,
+    "alt": 24,
+    "postePublic": true
+  },
+  {
+    "id": "85113003",
+    "nom": "L'ILE-D'YEU-ONM",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -2.33,
+    "lat": 46.705,
+    "alt": 8,
+    "postePublic": true
+  },
+  {
+    "id": "85113004",
+    "nom": "L'ILE D'YEU AERO",
+    "posteOuvert": true,
+    "typePoste": 0,
+    "lon": -2.388667,
+    "lat": 46.718167,
+    "alt": 19,
+    "postePublic": true
+  },
+  {
+    "id": "85119001",
+    "nom": "LANDES-GENUSSON",
+    "posteOuvert": false,
+    "typePoste": 2,
+    "lon": -1.1255,
+    "lat": 46.968333,
+    "alt": 100,
+    "postePublic": true
+  },
+  {
+    "id": "85152001",
+    "nom": "LA MOTHE ACHARD",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -1.633167,
+    "lat": 46.620833,
+    "alt": 58,
+    "postePublic": true
+  },
+  {
+    "id": "85153002",
+    "nom": "MOUCHAMPS_SAPC",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -1.053333,
+    "lat": 46.768333,
+    "alt": 82,
+    "postePublic": true
+  },
+  {
+    "id": "85163001",
+    "nom": "NOIRMOUTIER EN",
+    "posteOuvert": true,
+    "typePoste": 1,
+    "lon": -2.257167,
+    "lat": 47.004667,
+    "alt": 3,
+    "postePublic": true
+  },
+  {
+    "id": "85169002",
+    "nom": "PALLUAU",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -1.597667,
+    "lat": 46.808,
+    "alt": 51,
+    "postePublic": true
+  },
+  {
+    "id": "85172001",
+    "nom": "LE PERRIER",
+    "posteOuvert": true,
+    "typePoste": 1,
+    "lon": -1.999833,
+    "lat": 46.8265,
+    "alt": 2,
+    "postePublic": true
+  },
+  {
+    "id": "85182004",
+    "nom": "POUZAUGES SA",
+    "posteOuvert": true,
+    "typePoste": 1,
+    "lon": -0.830833,
+    "lat": 46.766,
+    "alt": 153,
+    "postePublic": true
+  },
+  {
+    "id": "85190001",
+    "nom": "ROCHESERVIERE",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -1.482667,
+    "lat": 46.956667,
+    "alt": 43,
+    "postePublic": true
+  },
+  {
+    "id": "85191001",
+    "nom": "ROCHE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -1.416667,
+    "lat": 46.666667,
+    "alt": 65,
+    "postePublic": true
+  },
+  {
+    "id": "85191002",
+    "nom": "LA ROCHE SUR YO",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -1.383333,
+    "lat": 46.666667,
+    "alt": 81,
+    "postePublic": true
+  },
+  {
+    "id": "85191003",
+    "nom": "LA ROCHE SUR YON",
+    "posteOuvert": true,
+    "typePoste": 0,
+    "lon": -1.381833,
+    "lat": 46.705,
+    "alt": 88,
+    "postePublic": true
+  },
+  {
+    "id": "85191005",
+    "nom": "LA ROCHE-SUR-YON ECOLE NORMALE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -1.43,
+    "lat": 46.671667,
+    "alt": 79,
+    "postePublic": true
+  },
+  {
+    "id": "85194001",
+    "nom": "LES SABLES D OL",
+    "posteOuvert": false,
+    "typePoste": 2,
+    "lon": -1.793333,
+    "lat": 46.501667,
+    "alt": 5,
+    "postePublic": true
+  },
+  {
+    "id": "85194002",
+    "nom": "LES SABLES-D'OLONNE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -1.785,
+    "lat": 46.495,
+    "alt": 8,
+    "postePublic": true
+  },
+  {
+    "id": "85215002",
+    "nom": "ST-FULGENT_SAPC",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -1.184167,
+    "lat": 46.848,
+    "alt": 62,
+    "postePublic": true
+  },
+  {
+    "id": "85216001",
+    "nom": "SAINTE GEMME LA PLAINE_SAPC",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -1.121333,
+    "lat": 46.440167,
+    "alt": 3,
+    "postePublic": true
+  },
+  {
+    "id": "85234001",
+    "nom": "ST JEAN DE MONT",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -2.042167,
+    "lat": 46.791667,
+    "alt": 3,
+    "postePublic": true
+  }
+]

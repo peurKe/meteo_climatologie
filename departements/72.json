@@ -1,0 +1,382 @@
+[
+  {
+    "id": "72029001",
+    "nom": "BEAUMONT-SUR-SARTHE BOURG",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 0.126667,
+    "lat": 48.226667,
+    "alt": 77,
+    "postePublic": true
+  },
+  {
+    "id": "72042001",
+    "nom": "BOULOIRE",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": 0.491833,
+    "lat": 47.984333,
+    "alt": 134,
+    "postePublic": true
+  },
+  {
+    "id": "72061001",
+    "nom": "LA CHAPELLE D A",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.216667,
+    "lat": 47.716667,
+    "alt": 50,
+    "postePublic": true
+  },
+  {
+    "id": "72086001",
+    "nom": "COMMERVEIL_SAPC",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": 0.353667,
+    "lat": 48.315333,
+    "alt": 105,
+    "postePublic": true
+  },
+  {
+    "id": "72093001",
+    "nom": "CORMES",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": 0.710167,
+    "lat": 48.179667,
+    "alt": 122,
+    "postePublic": true
+  },
+  {
+    "id": "72117001",
+    "nom": "DISSE SOUS LE L",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 0.126667,
+    "lat": 47.625,
+    "alt": 70,
+    "postePublic": true
+  },
+  {
+    "id": "72126001",
+    "nom": "EPINEU LE CHEVR",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.150333,
+    "lat": 48.042,
+    "alt": 122,
+    "postePublic": true
+  },
+  {
+    "id": "72132001",
+    "nom": "LA FERTE BERNAR",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 0.646667,
+    "lat": 48.188333,
+    "alt": 84,
+    "postePublic": true
+  },
+  {
+    "id": "72137006",
+    "nom": "LA FRESNAYE",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": 0.212167,
+    "lat": 48.433333,
+    "alt": 146,
+    "postePublic": true
+  },
+  {
+    "id": "72153003",
+    "nom": "JUPILLES",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 0.427833,
+    "lat": 47.793833,
+    "alt": 148,
+    "postePublic": true
+  },
+  {
+    "id": "72154001",
+    "nom": "LA FLECHE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.026667,
+    "lat": 47.691667,
+    "alt": 39,
+    "postePublic": true
+  },
+  {
+    "id": "72172003",
+    "nom": "LE LUART",
+    "posteOuvert": true,
+    "typePoste": 1,
+    "lon": 0.591,
+    "lat": 48.076333,
+    "alt": 112,
+    "postePublic": true
+  },
+  {
+    "id": "72175001",
+    "nom": "LUCHE PRINGE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 0.083333,
+    "lat": 47.716667,
+    "alt": 95,
+    "postePublic": true
+  },
+  {
+    "id": "72175002",
+    "nom": "LUCHE-PRINGE",
+    "posteOuvert": true,
+    "typePoste": 1,
+    "lon": 0.088167,
+    "lat": 47.713,
+    "alt": 92,
+    "postePublic": true
+  },
+  {
+    "id": "72176002",
+    "nom": "LE LUDE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 0.142167,
+    "lat": 47.642667,
+    "alt": 58,
+    "postePublic": true
+  },
+  {
+    "id": "72181001",
+    "nom": "LE MANS",
+    "posteOuvert": true,
+    "typePoste": 0,
+    "lon": 0.194167,
+    "lat": 47.945833,
+    "alt": 51,
+    "postePublic": true
+  },
+  {
+    "id": "72181002",
+    "nom": "LE MANS VILLE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 0.203333,
+    "lat": 47.996667,
+    "alt": 95,
+    "postePublic": true
+  },
+  {
+    "id": "72181003",
+    "nom": "LE MANS VILLE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 0.203333,
+    "lat": 47.996667,
+    "alt": 48,
+    "postePublic": true
+  },
+  {
+    "id": "72181005",
+    "nom": "LE MANS USINE A GAZ",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 0.203333,
+    "lat": 47.996667,
+    "alt": 48,
+    "postePublic": true
+  },
+  {
+    "id": "72181009",
+    "nom": "LE MANS ECOLE NORMALE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 0.203333,
+    "lat": 47.996667,
+    "alt": 84,
+    "postePublic": true
+  },
+  {
+    "id": "72189001",
+    "nom": "MAROLLES LES BR",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": 0.340833,
+    "lat": 48.243333,
+    "alt": 65,
+    "postePublic": true
+  },
+  {
+    "id": "72215001",
+    "nom": "NEUFCHATEL-EN-SAOSNOIS COTEAU",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 0.246667,
+    "lat": 48.375,
+    "alt": 168,
+    "postePublic": true
+  },
+  {
+    "id": "72229001",
+    "nom": "PARENNES",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.183333,
+    "lat": 48.12,
+    "alt": 145,
+    "postePublic": true
+  },
+  {
+    "id": "72237001",
+    "nom": "PIRMIL",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -0.103333,
+    "lat": 47.906833,
+    "alt": 66,
+    "postePublic": true
+  },
+  {
+    "id": "72255001",
+    "nom": "ROUESSE-VASSE",
+    "posteOuvert": true,
+    "typePoste": 1,
+    "lon": -0.225667,
+    "lat": 48.139333,
+    "alt": 206,
+    "postePublic": true
+  },
+  {
+    "id": "72257001",
+    "nom": "ROUILLON",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 0.134,
+    "lat": 48.006167,
+    "alt": 90,
+    "postePublic": true
+  },
+  {
+    "id": "72264001",
+    "nom": "SABLE SUR SARTH",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -0.302667,
+    "lat": 47.840167,
+    "alt": 41,
+    "postePublic": true
+  },
+  {
+    "id": "72269001",
+    "nom": "ST CALAIS",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 0.745,
+    "lat": 47.925,
+    "alt": 120,
+    "postePublic": true
+  },
+  {
+    "id": "72272001",
+    "nom": "SAINTE CEROTTE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 0.6895,
+    "lat": 47.905333,
+    "alt": 157,
+    "postePublic": true
+  },
+  {
+    "id": "72275003",
+    "nom": "SAINT CORNEILLE",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": 0.345,
+    "lat": 48.078833,
+    "alt": 62,
+    "postePublic": true
+  },
+  {
+    "id": "72284001",
+    "nom": "SAINT GERMAIN_SAPC",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": 0.093,
+    "lat": 48.301333,
+    "alt": 85,
+    "postePublic": true
+  },
+  {
+    "id": "72339001",
+    "nom": "SOULIGNE FLACE",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": 0.017333,
+    "lat": 47.964667,
+    "alt": 64,
+    "postePublic": true
+  },
+  {
+    "id": "72351002",
+    "nom": "TENNIE",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -0.05,
+    "lat": 48.1035,
+    "alt": 103,
+    "postePublic": true
+  },
+  {
+    "id": "72353001",
+    "nom": "THELIGNY",
+    "posteOuvert": false,
+    "typePoste": 3,
+    "lon": 0.773333,
+    "lat": 48.178333,
+    "alt": 195,
+    "postePublic": true
+  },
+  {
+    "id": "72357001",
+    "nom": "THOREE LES PINS",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": 0.0225,
+    "lat": 47.659333,
+    "alt": 78,
+    "postePublic": true
+  },
+  {
+    "id": "72361001",
+    "nom": "TRESSON_SAPC",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": 0.5595,
+    "lat": 47.885333,
+    "alt": 154,
+    "postePublic": true
+  },
+  {
+    "id": "72373001",
+    "nom": "VIBRAYE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": 0.761667,
+    "lat": 48.041667,
+    "alt": 112,
+    "postePublic": true
+  },
+  {
+    "id": "72377002",
+    "nom": "VILLAINES-SOUS-MALICORNE",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -0.1085,
+    "lat": 47.745833,
+    "alt": 87,
+    "postePublic": true
+  }
+]

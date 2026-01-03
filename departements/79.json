@@ -1,0 +1,412 @@
+[
+  {
+    "id": "79017001",
+    "nom": "NUEIL-LES-AUBIERS",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -0.584167,
+    "lat": 46.941167,
+    "alt": 118,
+    "postePublic": true
+  },
+  {
+    "id": "79031001",
+    "nom": "BEAUVOIR-SUR-NI",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.457833,
+    "lat": 46.175167,
+    "alt": 88,
+    "postePublic": true
+  },
+  {
+    "id": "79043001",
+    "nom": "BOUILLE-LORETZ",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.2905,
+    "lat": 47.057833,
+    "alt": 55,
+    "postePublic": true
+  },
+  {
+    "id": "79049001",
+    "nom": "BRESSUIRE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.476,
+    "lat": 46.838167,
+    "alt": 200,
+    "postePublic": true
+  },
+  {
+    "id": "79049003",
+    "nom": "BRESSUIRE ECOLE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.49,
+    "lat": 46.838333,
+    "alt": 180,
+    "postePublic": true
+  },
+  {
+    "id": "79049004",
+    "nom": "BRESSUIRE",
+    "posteOuvert": true,
+    "typePoste": 1,
+    "lon": -0.515833,
+    "lat": 46.839833,
+    "alt": 191,
+    "postePublic": true
+  },
+  {
+    "id": "79057001",
+    "nom": "BRIOUX-SUR-BOUT",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.218333,
+    "lat": 46.143333,
+    "alt": 64,
+    "postePublic": true
+  },
+  {
+    "id": "79061001",
+    "nom": "CELLES-SUR-BELL",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.216167,
+    "lat": 46.260833,
+    "alt": 118,
+    "postePublic": true
+  },
+  {
+    "id": "79075001",
+    "nom": "LA CHAPELLE-SAINT-ETIENNE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.573333,
+    "lat": 46.683333,
+    "alt": 190,
+    "postePublic": true
+  },
+  {
+    "id": "79079013",
+    "nom": "MAULEON_SAPC",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -0.757833,
+    "lat": 46.928833,
+    "alt": 150,
+    "postePublic": true
+  },
+  {
+    "id": "79091001",
+    "nom": "CIRIERE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.625,
+    "lat": 46.83,
+    "alt": 200,
+    "postePublic": true
+  },
+  {
+    "id": "79094001",
+    "nom": "CLESSE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.42,
+    "lat": 46.71,
+    "alt": 207,
+    "postePublic": true
+  },
+  {
+    "id": "79134001",
+    "nom": "GLENAY_SAPC",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -0.253667,
+    "lat": 46.856333,
+    "alt": 121,
+    "postePublic": true
+  },
+  {
+    "id": "79140002",
+    "nom": "HANC",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.003333,
+    "lat": 46.066667,
+    "alt": 125,
+    "postePublic": true
+  },
+  {
+    "id": "79148001",
+    "nom": "LEZAY",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -0.011667,
+    "lat": 46.259,
+    "alt": 128,
+    "postePublic": true
+  },
+  {
+    "id": "79174002",
+    "nom": "MELLE",
+    "posteOuvert": true,
+    "typePoste": 1,
+    "lon": -0.151333,
+    "lat": 46.235,
+    "alt": 136,
+    "postePublic": true
+  },
+  {
+    "id": "79176001",
+    "nom": "MENIGOUTE_SAPC",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -0.064333,
+    "lat": 46.494,
+    "alt": 138,
+    "postePublic": true
+  },
+  {
+    "id": "79191002",
+    "nom": "NIORT",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.461667,
+    "lat": 46.323333,
+    "alt": 40,
+    "postePublic": true
+  },
+  {
+    "id": "79191003",
+    "nom": "NIORT - COMPORTE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.47,
+    "lat": 46.324667,
+    "alt": 12,
+    "postePublic": true
+  },
+  {
+    "id": "79191004",
+    "nom": "NIORT-DONJON",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.464667,
+    "lat": 46.325333,
+    "alt": 30,
+    "postePublic": true
+  },
+  {
+    "id": "79191005",
+    "nom": "NIORT",
+    "posteOuvert": true,
+    "typePoste": 0,
+    "lon": -0.400167,
+    "lat": 46.315833,
+    "alt": 57,
+    "postePublic": true
+  },
+  {
+    "id": "79202003",
+    "nom": "PARTHENAY_SAPC",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -0.261,
+    "lat": 46.636833,
+    "alt": 159,
+    "postePublic": true
+  },
+  {
+    "id": "79211001",
+    "nom": "PIOUSSAY",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.02,
+    "lat": 46.068333,
+    "alt": 147,
+    "postePublic": true
+  },
+  {
+    "id": "79215001",
+    "nom": "POUGNE-HERISSON_SAPC",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -0.401833,
+    "lat": 46.6605,
+    "alt": 196,
+    "postePublic": true
+  },
+  {
+    "id": "79220001",
+    "nom": "PRIN-DEYRANCON",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.641167,
+    "lat": 46.223,
+    "alt": 14,
+    "postePublic": true
+  },
+  {
+    "id": "79220002",
+    "nom": "PRIN-DEYRANCON_SAPC",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -0.668667,
+    "lat": 46.231,
+    "alt": 8,
+    "postePublic": true
+  },
+  {
+    "id": "79239001",
+    "nom": "SAINT-AUBIN-LE-CLOUD",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.356667,
+    "lat": 46.651,
+    "alt": 189,
+    "postePublic": true
+  },
+  {
+    "id": "79253002",
+    "nom": "LA TOUCHE STNA",
+    "posteOuvert": false,
+    "typePoste": 2,
+    "lon": -0.204,
+    "lat": 46.459333,
+    "alt": 129,
+    "postePublic": true
+  },
+  {
+    "id": "79270001",
+    "nom": "ST-MAIXENT-L EC",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.21,
+    "lat": 46.413333,
+    "alt": 80,
+    "postePublic": true
+  },
+  {
+    "id": "79270003",
+    "nom": "SAINT-MAIXENT-L-ECOLE_SAPC",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -0.210333,
+    "lat": 46.417,
+    "alt": 83,
+    "postePublic": true
+  },
+  {
+    "id": "79309001",
+    "nom": "SCILLE",
+    "posteOuvert": true,
+    "typePoste": 1,
+    "lon": -0.571167,
+    "lat": 46.617167,
+    "alt": 247,
+    "postePublic": true
+  },
+  {
+    "id": "79311002",
+    "nom": "SECONDIGNY",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -0.4385,
+    "lat": 46.605333,
+    "alt": 198,
+    "postePublic": true
+  },
+  {
+    "id": "79320001",
+    "nom": "SURIN",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.454,
+    "lat": 46.466333,
+    "alt": 112,
+    "postePublic": true
+  },
+  {
+    "id": "79320002",
+    "nom": "SURIN_SAPC",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -0.460333,
+    "lat": 46.459667,
+    "alt": 100,
+    "postePublic": true
+  },
+  {
+    "id": "79326001",
+    "nom": "THENEZAY ECOLE",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.026667,
+    "lat": 46.72,
+    "alt": 149,
+    "postePublic": true
+  },
+  {
+    "id": "79326002",
+    "nom": "THENEZAY",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.066,
+    "lat": 46.705167,
+    "alt": 140,
+    "postePublic": true
+  },
+  {
+    "id": "79326004",
+    "nom": "THENEZAY STNA",
+    "posteOuvert": true,
+    "typePoste": 1,
+    "lon": -0.020333,
+    "lat": 46.725333,
+    "alt": 132,
+    "postePublic": true
+  },
+  {
+    "id": "79329001",
+    "nom": "THOUARS-STNA",
+    "posteOuvert": true,
+    "typePoste": 2,
+    "lon": -0.207,
+    "lat": 46.989167,
+    "alt": 81,
+    "postePublic": true
+  },
+  {
+    "id": "79342001",
+    "nom": "VERNOUX-EN-GATI",
+    "posteOuvert": false,
+    "typePoste": 4,
+    "lon": -0.524333,
+    "lat": 46.600333,
+    "alt": 205,
+    "postePublic": true
+  },
+  {
+    "id": "79342002",
+    "nom": "VERNOUX STNA",
+    "posteOuvert": false,
+    "typePoste": 2,
+    "lon": -0.525,
+    "lat": 46.633333,
+    "alt": 202,
+    "postePublic": true
+  },
+  {
+    "id": "79350003",
+    "nom": "CHIZE",
+    "posteOuvert": false,
+    "typePoste": 2,
+    "lon": -0.401667,
+    "lat": 46.135,
+    "alt": 69,
+    "postePublic": true
+  }
+]
